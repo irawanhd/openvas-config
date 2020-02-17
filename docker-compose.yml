@@ -3,7 +3,7 @@ services:
   
   openvas:
       restart: always
-      image: irawanhd/openvas
+      image: irawanhd/openvas:9
       container_name: openvas
       hostname: openvas
       ports:
